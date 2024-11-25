@@ -1,0 +1,153 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.container{
+  background-color: rgb(214, 196, 196);
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 15px 15px 150px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input fields styling */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #7a5ef8;
+}
+
+/* Label styling */
+.result {
+  margin-top: 20px;
+}
+
+.result div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.result div span {
+  color: #7a5ef8;
+}
+
+/* Purple decorative button */
+.button-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #7a5ef8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-circle:hover {
+  background-color: #6a4de8;
+}
+
+ .text-wrapper {
+      align-items: center; 
+    }
+
+    .text-wrapper span {
+      font-size: 2.5rem;
+      color: #d3cfe4;
+      opacity: 0; /* Initially hidden */
+      transform: translateY(20px); /* Starts slightly below */
+      animation: fadeInMove 0.6s ease forwards;
+    }
+
+    /* Add a delay to each letter */
+    .text-wrapper span:nth-child(1) {
+      animation-delay: 0.2s;
+    }
+    .text-wrapper span:nth-child(2) {
+      animation-delay: 0.4s;
+    }
+    .text-wrapper span:nth-child(3) {
+      animation-delay: 0.6 s;
+    }
+    
+    .wrapper span:nth-child(4) {
+      animation-delay: 0.8s;
+    }
+    .wrapper span:nth-child(5) {
+      animation-delay: 1s;
+    }
+    .wrapper span:nth-child(6) {
+      animation-delay: 1.2s;
+    }
+    .wrapper span:nth-child(7) {
+      animation-delay: 1.3s;
+    }
+    .wrapper span:nth-child(8) {
+      animation-delay: 1.5s;
+    }
+    .wrapper span:nth-child(9) {
+      animation-delay: 1.8s;
+    }
+    .wrapper span:nth-child(10) {
+      animation-delay: 1.9s;
+    }
+    .wrapper span:nth-child(11) {
+      animation-delay: 2s;
+    }
+    .wrapper span:nth-child(12) {
+      animation-delay: 2.2s;
+    }
+    .wrapper span:nth-child(13) {
+      animation-delay: 2.4s;
+    }
+
+    /* Keyframes for the animation */
+    @keyframes fadeInMove {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    .line{
+        height: 2px;
+        background-color: black;
+        
+        border: none;
+        
+    }
